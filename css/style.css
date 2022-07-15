@@ -183,7 +183,6 @@ body {
 
 .slider-section {
     height: 448px;
-    max-width: 1440px;
     background-size: cover;
     background: #131313;
     margin: 0 auto;
@@ -1193,6 +1192,7 @@ margin-bottom: 55px;
     width: 200px;
     height: 51px;
     border: none;
+    cursor: pointer;
 }
 
 .icons {
