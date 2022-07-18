@@ -14,6 +14,11 @@ body {
     'Yeseva One', Times, serif;
 }
 
+.content-area {
+    max-width: 1440px;
+    margin: auto;
+}
+
 .header {
     background: #131313;
     height: 83px;
@@ -26,7 +31,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 1256px;
-    margin: 0 auto;
 }
 
 .contacts-header {
@@ -41,15 +45,9 @@ body {
     align-items: center;
 }
 
-.nav-items {
-    margin: 0 auto;
-    
-}
-
 .logo {
     font-family: 'Nunito Sans';
     font-style: normal;
-    font-weight: 400;
     font-size: 11px;
     line-height: 15px;
     text-transform: uppercase;
@@ -59,7 +57,6 @@ body {
 .tel {
     font-family: 'Nunito Sans';
     font-style: normal;
-    font-weight: 400;
     font-size: 11px;
     line-height: 15px;
     text-align: right;
@@ -134,7 +131,6 @@ body {
     margin: 0 auto;
     font-family: 'Yeseva One';
     font-style: normal;
-    font-weight: 400;
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
@@ -147,7 +143,6 @@ body {
 }
 
 .p1 {
-    font-weight: 400;
     font-size: 22px;
     line-height: 36px;
     color: #FFFFFF;
@@ -177,18 +172,18 @@ body {
 
 .main-container {
     padding-left: 134px;
-    padding-top: 191px;
-    width: 600px;
+    padding-top: 194px;
 }
 
 .slider-section {
     height: 448px;
-    background-size: cover;
+    background-size: 100%;
     background: #131313;
     margin: 0 auto;
-    display: block;
+    display: flex;
     justify-content: center;
-    padding: 107px 134.55px;
+    align-items: center;
+    padding: 106px 134.55px;
 }
 
 .hero-content {
@@ -283,8 +278,11 @@ text-underline-offset: 10px;
     padding-top: 53px;
 }
 
+.section-video {
+    background: linear-gradient( #131313 40%, white 40%);
+}
+
 .content-box {
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -292,7 +290,6 @@ text-underline-offset: 10px;
 }
 
 .half-background {
-    background: linear-gradient( #131313 62%, white 38%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -572,6 +569,10 @@ margin-bottom: 55px;
 .request-section {
     width: 100%;
     margin-bottom: 242px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .request-form-container {
@@ -659,11 +660,10 @@ margin-bottom: 55px;
 .req-name-input input {
     font-family: 'Nunito Sans';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 23px;
     outline: none;
-    color: #363636;
+    color: #FFFFFF;
     border-bottom: 40px;
     border: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
@@ -688,10 +688,9 @@ margin-bottom: 55px;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 23px;
     outline: none;
-    color: #363636;
+    color: #FFFFFF;
     border-bottom: 40px;
     border: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
@@ -715,11 +714,10 @@ margin-bottom: 55px;
 .req-mail-input input {
     font-family: 'Nunito Sans';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 23px;
     outline: none;
-    color: #363636;
+    color: #FFFFFF;
     border-bottom: 40px;
     border: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
@@ -774,8 +772,8 @@ margin-bottom: 55px;
 
 .pig-coin {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 270px;
+    align-self: end;
+    padding-right: 200px;
 }
 
 .pig-text  {
@@ -796,7 +794,7 @@ margin-bottom: 55px;
     margin-bottom: 110px;
 }
 
-.style-container-size {
+.style-container {
     display: flex;
     justify-content: space-around;
 }
@@ -865,8 +863,6 @@ margin-bottom: 55px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .client-header {
